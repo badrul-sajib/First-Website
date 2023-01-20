@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .namehighlight{
     color: orange;
 }
@@ -44,6 +50,10 @@ section{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    margin: 0%;
+    background-position: right, bottom;
 }
 .img2 img{
     width: 100%;
@@ -55,4 +65,13 @@ section{
     padding-right: 250px;
     margin-left: 173px;
     margin-right: -212px;
+}
+.left2{
+    width: 40%;
+    float: left;
+    text-align: justify;
+    padding-left: 20px;
+    margin-right: 0%;
+    background-color: white;
+    border-left: 5px solid orange;
 }
