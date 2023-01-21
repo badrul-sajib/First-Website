@@ -62,16 +62,43 @@ section{
 .right1{
     text-align: justify;
     padding-left: 2px;
-    padding-right: 250px;
     margin-left: 173px;
-    margin-right: -212px;
 }
 .left2{
     width: 40%;
     float: left;
     text-align: justify;
     padding-left: 20px;
+    padding-right: 30px;
     margin-right: 0%;
-    background-color: white;
-    border-left: 5px solid orange;
+    margin-left: 80px;
+}
+.sxp{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: ;
+}
+.xp{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: left;
+}
+.xp h3{
+    margin-left: 20px;
+}
+#card{
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#card2{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, rgb(0, 204, 255));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
